@@ -1,0 +1,594 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698629603165987, "dur":913, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603166903, "dur":93, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698629603167024, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698629603167049, "dur":275, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698629603167341, "dur":540, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603167881, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244302, "dur":225, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244527, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244562, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244565, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244570, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244571, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244577, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244579, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244583, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244585, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244589, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244590, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244594, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244595, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244599, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244601, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244605, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244607, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244610, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244612, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244616, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244617, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244621, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244622, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244626, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244663, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603244681, "dur":1986, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698629603167573, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603167888, "dur":5236, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603173132, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698629603173134, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603173490, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698629603173493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603175016, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698629603177201, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698629603177367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603178236, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698629603179729, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603179850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603180610, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603182568, "dur":2980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603185550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603185555, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603187006, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603187525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603187548, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603189829, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603189983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603189987, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603191651, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603192280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603192286, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603194491, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603194637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603194642, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603196671, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603197357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603197363, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603199957, "dur":1579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603201540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603201550, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603203569, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603203710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603203717, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603205842, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603205939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603205943, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603208768, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603209086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603209092, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603211098, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603211706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603211715, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603214435, "dur":5306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603219744, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603219914, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698629603222760, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698629603222909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698629603222918, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698629603226553, "dur":17874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603167634, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603167904, "dur":5227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603173133, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698629603173349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603175950, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698629603178333, "dur":6641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603184978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603185165, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603186344, "dur":890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603187238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603187243, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603190257, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603190931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603190953, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603192306, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603192486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603192490, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603194172, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603194775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603194780, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603196705, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603197562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603197570, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603200833, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603201502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603201510, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603203821, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603204060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603204066, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603206157, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603206347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603206351, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603208790, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603209211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603209217, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603211254, "dur":4571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603215829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603215836, "dur":4996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698629603220905, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1698629603221019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603221024, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1698629603225839, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1698629603225890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698629603225896, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1698629603227994, "dur":16314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603167597, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603167895, "dur":5234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603173132, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698629603173345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603175927, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698629603178340, "dur":20318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603198689, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603198784, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603204466, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603204840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603204846, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603207387, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603207893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603207899, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603210547, "dur":4339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603214890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603214898, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698629603218112, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1698629603218210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603218220, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1698629603220886, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698629603220951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603220956, "dur":4935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698629603225950, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698629603226179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698629603226185, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698629603228898, "dur":15402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603167591, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603167891, "dur":5243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603173134, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698629603173482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603175916, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1698629603178517, "dur":8802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698629603187322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603187328, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698629603188645, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603188796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603188802, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603190713, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603191366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603191372, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603193246, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603193395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603193409, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603195384, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603196018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603196024, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603198831, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603199578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603199588, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603201906, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603202117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603202125, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603204521, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603204652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603204659, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603206943, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603207509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603207516, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603209825, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603209983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603209987, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603212265, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603212405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603212411, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698629603214711, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698629603214806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603214812, "dur":5410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698629603220511, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698629603220854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698629603220863, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698629603226557, "dur":17747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603167626, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603167899, "dur":5231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603173133, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698629603174040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603175869, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698629603177853, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698629603178678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603178684, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698629603179707, "dur":3156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603182867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603182872, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603184684, "dur":1226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603185913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603185919, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603187095, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603187329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603187335, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603189695, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603189862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603189867, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603191673, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603191863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603191867, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603193956, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603194214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603194222, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603196638, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603198048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603198056, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603201996, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603202205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603202209, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603205074, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603205201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603205207, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603208522, "dur":3012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603211538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603211545, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698629603215336, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698629603215399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603215404, "dur":4825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698629603220318, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698629603220421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603220429, "dur":5721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698629603226238, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1698629603226331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698629603226338, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1698629603228368, "dur":15965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603167660, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603167908, "dur":5230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603173138, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698629603173502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603175927, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698629603178558, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698629603179220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603179225, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698629603180174, "dur":1267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603181456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603181894, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603182860, "dur":2611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603185473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603185477, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603187049, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603187412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603187417, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603189865, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603189978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603189983, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603191428, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603192133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603192139, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603194017, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603194170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603194174, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603196307, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603196467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603196492, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603199995, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603200182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603200188, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603202816, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603202913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603202918, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603204981, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603205120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603205126, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603207853, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603207987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603207992, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603210469, "dur":1012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603211484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603211490, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603213735, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603214397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603214404, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698629603216387, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698629603216457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698629603216463, "dur":9758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698629603226273, "dur":18029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603167681, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603167912, "dur":5213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603173132, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1698629603173714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603175279, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1698629603177266, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698629603177996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603178182, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698629603179613, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603179790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603180625, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603182428, "dur":1855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603184286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603184291, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603185016, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603186313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603186320, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603187354, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603187685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603187689, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603189180, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603189405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603189409, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603191188, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603191335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603191341, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603193233, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603193897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603193903, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603195927, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603196625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603196632, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603199119, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603199507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603199515, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603201897, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603202126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603202133, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603204645, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603204813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603204819, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603207432, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603207789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603207795, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603209704, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603209935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603209941, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603211786, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603212260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603212266, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603214385, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603214566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603214571, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698629603216202, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698629603216290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603216297, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698629603219463, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1698629603219747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603219755, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1698629603221578, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1698629603221671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603221679, "dur":4468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1698629603226208, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698629603226266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698629603226271, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698629603228562, "dur":15763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698629603167699, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698629603167915, "dur":5217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698629603173132, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698629603173339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698629603176545, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698629603178480, "dur":53684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698629603232174, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698629603232191, "dur":12031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698629603244271, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1698629603244273, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603167727, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603167918, "dur":5210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603173132, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1698629603173814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603175895, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1698629603177760, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698629603177880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603178172, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698629603179961, "dur":2684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603182649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603182656, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603184662, "dur":1437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603186103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603186107, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603187498, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603188099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603188106, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603190297, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603191077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603191083, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603192796, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603193408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603193412, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603195359, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603196029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603196035, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603198805, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603199609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603199618, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603201910, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603202082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603202110, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603205035, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603205148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603205152, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603207842, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603208312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603208318, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603210558, "dur":1367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603211928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603211935, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698629603214609, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1698629603214678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603214739, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1698629603216808, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1698629603216875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603216882, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1698629603221156, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698629603221382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698629603221388, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698629603226421, "dur":17877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603167745, "dur":177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603167922, "dur":5204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603173132, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1698629603173339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603176130, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1698629603177885, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1698629603177999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603178179, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1698629603180590, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603180740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603181885, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603182819, "dur":2433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603185255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603185260, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603186406, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603187590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603187597, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603189720, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603190307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603190311, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603191718, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603191895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603191901, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603193930, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603194074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603194080, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603196507, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603197226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603197233, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603199768, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603201063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603201071, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603202885, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603203445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603203452, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603206156, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603206386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603206401, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603208893, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603209025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603209031, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603210885, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603211376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603211391, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603213779, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603214153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603214319, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698629603215807, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698629603215878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603215890, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698629603219341, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698629603219573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603219583, "dur":6602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698629603226244, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1698629603226391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698629603226396, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1698629603228458, "dur":15849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603167765, "dur":160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603167925, "dur":5210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603173135, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698629603174035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603175905, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698629603178310, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698629603178526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603178532, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698629603180390, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603180527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603180655, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603182654, "dur":3089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603185746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603185750, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603187212, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603188363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603188367, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603190605, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603190723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603190729, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603192303, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603192891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603192895, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603194683, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603195495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603195501, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603197765, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603198070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603198078, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603201216, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603201930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603201937, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603204567, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603204704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603204709, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603206952, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603207194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603207200, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603209795, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603210378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603210384, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603212664, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603213180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603213187, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698629603215226, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698629603215286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603215292, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698629603219798, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1698629603220007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603220016, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1698629603225502, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698629603225574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698629603225645, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698629603228132, "dur":16197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603167785, "dur":144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603167929, "dur":5204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603173133, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698629603173876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603175879, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698629603177948, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1698629603178083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603178089, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1698629603179333, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1698629603179428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603180534, "dur":5703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1698629603186294, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603187027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603187036, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603188835, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603188944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603188948, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603191185, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603191343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603191348, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603193308, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603194100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603194106, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603196661, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603197308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603197322, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603199934, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603200154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603200188, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603202807, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603203099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603203104, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603205444, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603205789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603205795, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603208825, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603209485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603209491, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603211852, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603212120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603212125, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603214390, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603214914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603216182, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698629603218249, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1698629603218471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603218477, "dur":7091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1698629603225630, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1698629603225692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698629603225697, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jolee/Downloads/DIG_3480/Karting_GitHub/Karting Mini_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1698629603227681, "dur":16624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698629603247774, "dur":1646, "ph":"X", "name": "ProfilerWriteOutput" }
+,
